@@ -1,8 +1,6 @@
 
 ---
 
-# What to put in the folder READMEs
-
 ## `scraping/README.md`
 
 ```md
