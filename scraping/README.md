@@ -1,9 +1,6 @@
 
 ---
 
-## `scraping/README.md`
-
-```md
 # Scraping
 
 This folder contains the Python scripts used to collect cricket match data from ESPN Cricinfo.
