@@ -27,7 +27,7 @@ This version uses Python-based scraping, JSON transformation, and analytical scr
 ## Problem Statement
 ESPN Cricinfo is one of the richest public sources of cricket data, but it does not provide a simple open API for structured large-scale extraction. Its pages are dynamic, commentary loads progressively, and the underlying data is embedded in nested response structures.
 
-The objective of this project was to create a scalable workflow for analyzing IPL ball-by-ball data from 2008 to 2024. The approach was to scrape match-level scorecard and commentary data, store it as JSON, and transform it into a single structured dataset suitable for analysis and visualization. This project analyzed IPL ball-by-ball data from 2008 to 2024 and used a match-by-match scraping approach to extract commentary and scorecard data.  [oai_citation:0‡Social Web Analytics PPT.pptx](sediment://file_0000000014f071fa958143bf5dd6dbbf)
+The objective of this project was to create a scalable workflow for analyzing IPL ball-by-ball data from 2008 to 2024. The approach was to scrape match-level scorecard and commentary data, store it as JSON, and transform it into a single structured dataset suitable for analysis and visualization. This project analyzed IPL ball-by-ball data from 2008 to 2024 and used a match-by-match scraping approach to extract commentary and scorecard data. 
 
 ## Tech Stack
 - Python
@@ -39,7 +39,7 @@ The objective of this project was to create a scalable workflow for analyzing IP
 - Excel
 - Tableau
 
-The project used Playwright for dynamic scraping, Python for core logic, Pandas for transformation, ujson for fast JSON parsing, Plotly and Matplotlib for visualizations, and Excel to store and loop through 1000+ match IDs.  [oai_citation:1‡Social Web Analytics PPT.pptx](sediment://file_0000000014f071fa958143bf5dd6dbbf)
+The project used Playwright for dynamic scraping, Python for core logic, Pandas for transformation, ujson for fast JSON parsing, Plotly and Matplotlib for visualizations, and Excel to store and loop through 1000+ match IDs. 
 
 ## Pipeline Workflow
 1. Match IDs for IPL games from 2008 to 2024 are stored in Excel.
@@ -48,7 +48,7 @@ The project used Playwright for dynamic scraping, Python for core logic, Pandas 
 4. A transformation script converts all JSON files into a single master DataFrame.
 5. The final dataset is used for analysis and dashboarding.
 
-This workflow matches the project design described in the project presentation: match IDs were stored in Excel, each match was scraped into structured JSON, and all JSON files were transformed into a single master DataFrame for analysis.  [oai_citation:2‡Social Web Analytics PPT.pptx](sediment://file_0000000014f071fa958143bf5dd6dbbf)
+This workflow matches the project design described in the project presentation: match IDs were stored in Excel, each match was scraped into structured JSON, and all JSON files were transformed into a single master DataFrame for analysis.
 
 ## Dataset Summary
 - Matches processed: 1000+
@@ -57,7 +57,7 @@ This workflow matches the project design described in the project presentation: 
 - Venues covered: 40+
 - Features per delivery: 60+
 
-The project presentation reports 1000+ matches processed, around 3 million deliveries, 800+ unique players, 40+ venues, and 60+ features in the final DataFrame.  [oai_citation:3‡Social Web Analytics PPT.pptx](sediment://file_0000000014f071fa958143bf5dd6dbbf)
+The project presentation reports 1000+ matches processed, around 3 million deliveries, 800+ unique players, 40+ venues, and 60+ features in the final DataFrame. 
 
 ## Example Analysis Areas
 This dataset supports analysis such as:
@@ -67,7 +67,7 @@ This dataset supports analysis such as:
 - team scoring patterns by season
 - wagon wheel analysis for individual batters
 
-The presentation highlights analyses including top 20 run scorers, season-wise run rate, bowling type distribution by over, over-wise run rate by team and season, and wagon wheel analysis for Virat Kohli in 2024.  [oai_citation:4‡Social Web Analytics PPT.pptx](sediment://file_0000000014f071fa958143bf5dd6dbbf)
+The presentation highlights analyses including top 20 run scorers, season-wise run rate, bowling type distribution by over, over-wise run rate by team and season, and wagon wheel analysis for Virat Kohli in 2024. 
 
 ## Repository Structure
 ```text
